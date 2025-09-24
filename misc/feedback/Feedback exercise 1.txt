@@ -1,0 +1,14 @@
+Program 8 doesn't work as requested. 
+=====================================
+On line 6 and 7 you have as follows:
+
+days=int(amount_days)
+minutes=int(days*60)
+
+line 6 makes the days variable an int datatype.
+on line 7 there is no need to wrap days*60 in int() as days is an int from line 6 and 60 is an int by default.
+There is nothing wrong with it per se, but just be mindful of whether or not you need to cast datatypes.
+
+===============================================
+can you upload questions 1 - 4, 6,9, and questions 6- 11 on page 174.
+
