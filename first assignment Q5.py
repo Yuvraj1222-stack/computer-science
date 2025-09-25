@@ -1,0 +1,6 @@
+print("Total slices in your pizza?")
+total_slices = input()
+print("How many slices did you eat?")
+slices_eaten = input()
+slices_left = int(total_slices) - int(slices_eaten)
+print(f"Slices remaining: {slices_left}")

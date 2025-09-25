@@ -1,0 +1,6 @@
+print("Total bill amount:")
+total_bill = input()
+print("Number of people sharing the bill:")
+people_count = input()
+per_person = float(total_bill) / float(people_count)
+print(f"Each person should pay {per_person}")

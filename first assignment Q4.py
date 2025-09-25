@@ -1,0 +1,10 @@
+print("Type the first number:")
+value1 = input()
+print("Type the second number:")
+value2 = input()
+sum_2 = int(value1) + int(value2)
+
+print("Type a third number:")
+value3 = input()
+final_result = sum_2 * int(value3)
+print(f"Final result: {final_result}")
