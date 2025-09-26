@@ -1,0 +1,2 @@
+For Q6 you don't need to convert the input to an int and then a str as it is str by default.
+Apart from that, your code is very good.
