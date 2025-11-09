@@ -1,13 +1,15 @@
 #assignment 10
 # Q3
 
-x1= input('Enter your string: ')
+x1 = input("Ënter your word") 
+first = x1[0].lower()
 
-y2= word[0]
+other= x1[1:len(x1)]
 
-z3 = word[1:100]
+result = other.replace(first, '$')
 
-a4= w3.replace(w2,'$')
+result = first + result
+print(result)
 
-print(y2+a4)
  
+
