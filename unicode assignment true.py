@@ -32,7 +32,7 @@ def to4bit(n):
 # get Unicode input
 y = input("Enter a Unicode (example: U+20AC): ")[2:]
 
-# break input into hex digits and convert to 4-bit binary
+# break the input into hex digits and convert to 4-bit binary
 binary_digits = []
 for ch in y:
     decimal = myfunc(ch)
@@ -65,3 +65,4 @@ def to8bit(n):
 
 UTF8_binary = [to8bit(b) for b in UTF8]
 print("UTF-8 encoding/rearrange :", ' '.join(UTF8_binary))
+
